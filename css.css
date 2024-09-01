@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( #390879, #6a1b9a);
+    height: 100vh;
+}
+
+
+.main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    height: 50vh;
+    top: 30vh;
+    
+
+}
+
+.main h1{
+
+    color: #b8df10;
+
+
+}
+
+.timer{
+
+    display: flex;
+    font-size: 55px;
+    font-weight:bold;
+    color: #f2f6f9;
+
+}
+
+
+.time{
+
+    display: flex;
+    align-items: center;
+    justify-content: center; /*Centraliza os itens*/
+    margin-right: 10px;
+    color: #f2f6f9;
+    min-width: 90px;
+
+}
+
+.separador{
+
+    padding: 0 10px;
+    color: #878888;;
+
+}
+
+#milliseconds{
+
+    font-size: 30px;
+    color: #a8bbc2;
+
+}
+
+.buttons{
+
+    display: flex;
+    gap: 1rem;
+
+}
+
+.btn{
+
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 2px solid #b8df10;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: #b8df10;
+    color:rgb(131, 60, 174);
+}
+
+#pausar, #continuar{
+    display: none;
+}
